@@ -13,12 +13,17 @@ const palette = {
     },
     grey: {
         main: '#81929B'
-    }
+    },
+    button: {
+        // Mitenköhän nää ois järekvää nimetä? :D
+        primary: '#7685D6',
+        secondary: '#ffffff'
+    },
 }
 
 const typography =  {
     fontFamily: 'Inter',
-    fontWeightRegular: 300,
+    fontWeightRegular: 400,
     h1: {
         fontFamily: 'Inter',
         fontWeight: '100px',
@@ -29,7 +34,8 @@ const typography =  {
     },
     body: {
         fontFamily: 'Inter',
-        fontWeight: '20px',
+        fontSize: '20px',
+        fontWeight: 400,
     },
 }
 
