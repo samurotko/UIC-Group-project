@@ -22,7 +22,7 @@ export default  ({
              height: height,
              width: width,
              fontFamily: typography.body.fontFamily,
-             fontSize: typography.body.fontWeight,
+             fontSize: typography.body.fontSize,
              }
           }
         
