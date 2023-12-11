@@ -15,9 +15,24 @@ const palette = {
         main: '#81929B'
     },
     button: {
-        // Mitenköhän nää ois järekvää nimetä? :D
+        // Mitenköhän nää ois järekvää nimetä? :D // yleensä noi buttonit on just primary, secondary ... mut tbh en tiiä onko tähän hyvää vastausta 
         primary: '#7685D6',
         secondary: '#ffffff'
+    },
+    link: {
+        primary: '#162FBA'
+    },
+    conclusion: {
+        case1: {
+            bg: '#FFE9E9',
+        },
+        case2: {
+            bg: '#FFEED6',
+        },
+        case3: {
+            bg:'#D6E8DB',
+        },
+
     },
 }
 
@@ -26,7 +41,19 @@ const typography =  {
     fontWeightRegular: 400,
     h1: {
         fontFamily: 'Inter',
-        fontWeight: '100px',
+        fontSize: '70px',
+    },
+    h2: {
+        fontFamily: 'Inter',
+        fontSize: '60px',
+    },
+    h3: {
+        fontFamily: 'Inter',
+        fontSize: '1.6em',
+    },
+    h4: {
+        fontFamily: 'Inter',
+        fontSize: '1.3em',
     },
     subtitle: {
         fontFamily: 'Inter',
