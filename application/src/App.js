@@ -1,5 +1,4 @@
 import './assets/App.css';
-import { ExampleStyle } from './assets/shared-styles';
 import Appointment from './page-components/appointment/Appointment';
 import Info from './page-components/info/Info';
 import Landing from './page-components/landing/Landing';
