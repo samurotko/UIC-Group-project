@@ -51,9 +51,6 @@ const Results = () => {
         setAnswersOpen(!answersOpen);
     };
 
-    console.log(dummyAnswers)
-    console.log(typeof dummyAnswers)
-
     return (
         <>
         <Heading2>Results</Heading2>
