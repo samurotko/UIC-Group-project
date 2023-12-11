@@ -63,7 +63,7 @@ const Results = () => {
             {!answersOpen ? <BodyButton onClick={answers}>Show your answers</BodyButton>:
              <WhiteWrapperInner>
                 <Heading4>Your answers</Heading4>{dummyAnswers.map((answer, i) =>  (
-                <SmallMargin>
+                <SmallMargin key={'qa-wrapper' + i}>
                 <Bodytext key={'q' + i}><b>{answer.question}</b></Bodytext>
                 <Bodytext key={'a' + i}>{answer.answer}</Bodytext>
                 </SmallMargin>
