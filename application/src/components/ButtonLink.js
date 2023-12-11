@@ -12,4 +12,6 @@ font-size: ${typography.body.fontSize};
 font-weight: ${typography.body.fontWeight};
 color: ${palette.button.secondary};
 text-decoration: none;
+margin: 2rem 1rem;
+width: max-content;
 `;
