@@ -77,6 +77,7 @@ const Appointment = () => {
 
             <NoStyleWrapper>
                 <ContentAlignStart>
+                <NoStyleWrapper>
                 <SmallMargin><Heading4>Gender</Heading4></SmallMargin>
                 <StyledSelect>
                 <option value="0">Man</option>
@@ -84,11 +85,15 @@ const Appointment = () => {
                 <option value="0">Other</option>
                 <option value="0">Prefer not to say</option>
             </StyledSelect>
+            </NoStyleWrapper>
+            <NoStyleWrapper>
                 <SmallMargin><Heading4>Phone number</Heading4></SmallMargin>
                 <TextInput placeholder="phone number" size="2px" color={palette.primary} type="number" />
-
+                </NoStyleWrapper>
+                <NoStyleWrapper>
                 <SmallMargin><Heading4>Email</Heading4></SmallMargin>           
         <TextInput placeholder="email" size="2px" color={palette.primary} type="number" />
+        </NoStyleWrapper>
                 </ContentAlignStart>
             </NoStyleWrapper>
 
