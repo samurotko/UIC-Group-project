@@ -70,3 +70,11 @@ export const ContentAlignEnd = styled.div`
     justify-content: end;
     align-items: center;
 `
+
+// wrapper for aligning something to left (everything inside this is aligned)
+export const ContentAlignStart = styled.div`
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+`
