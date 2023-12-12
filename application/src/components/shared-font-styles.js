@@ -42,7 +42,7 @@ export const Heading4Center = styled.h4`
     margin: 1rem;
 `;
 
-// the basic text
+// the basic text TODO: use theme font size
 export const Bodytext = styled.p`
     font-family: ${typography.body.fontFamily};
     font-weight: ${typography.body.fontWeight};

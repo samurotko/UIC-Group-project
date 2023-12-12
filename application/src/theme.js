@@ -1,21 +1,34 @@
 const palette = {
     primary: {
         main: '#7685D6',
-        dark: 'black',
-        light: '#7685D6',
+        dark: '#4e61ca',
+        light: '#9da7e2',
         contrastText: '#ffffff',
     },
     secondary: {
         main: '#C0DBEA',
-        dark: '#C0DBEA',
-        light: '#C0DBEA',
+        dark: '#9fc9df',
+        light: '#d9e9f2',
         contrastText: '#ffffff',
     },
     grey: {
-        main: '#81929B'
+        main: '#81929B',
+        dark: '#70848f'
+    },
+    white: {
+        main: '#ffffff',
+        dark: 'e6e6e6',
+        contrastText: 'black',
+    },
+    error: {
+        main: '#ff8080',
+        dark: '#ff4d4d',
+        light: '#ffb3b3',
+        contrastText: '#ffffff',
     },
     button: {
         // Mitenköhän nää ois järekvää nimetä? :D // yleensä noi buttonit on just primary, secondary ... mut tbh en tiiä onko tähän hyvää vastausta 
+        //Kelasin että ois vaan toi color scheme jota annetaan propsina buttonille, mallia color={palette.primary}. Tsekkaa Button.js
         primary: '#7685D6',
         secondary: '#ffffff'
     },
@@ -57,11 +70,12 @@ const typography =  {
     },
     subtitle: {
         fontFamily: 'Inter',
+        fontSize: '1.1rem',
         fontWeight: '50px',
     },
     body: {
         fontFamily: 'Inter',
-        fontSize: '20px',
+        fontSize: '1.1rem',
         fontWeight: 400,
     },
 }
